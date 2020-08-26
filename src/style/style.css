@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background-image: url('../img/background.jpg');
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+#table, tr, td, th , .box {
+    border: 3px solid #EDF5FC;
+    color: black;
+    background-color: #EDF5FC;
+    box-shadow: black 3px 3px 2px;
+    align-items: center;
+    width: 100%;
+    border-radius: .5em;
+}
+#table td:hover {
+    background-color: #B8C5D6;
+    cursor: pointer;
+}
+#game {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    width: 500px;
+    text-align: center;
+}
+
+#question {
+    padding: 10px;
+}
+
+#display {
+    border: 3px solid whitesmoke; 
+    color: black;
+    border-radius: .5em;
+    background-color: darkgray;
+    box-shadow: black 3px 3px 2px;
+    position: relative;
+    top: 50px;
+    background-color: white;
+
+}
+
+#displayGreen {
+    border: 3px solid whitesmoke; 
+    color: black;
+    border-radius: .5em;
+    box-shadow: black 3px 3px 2px;
+    position: relative;
+    top: 50px;
+    background-color: #23CE6B;
+    transition-delay: .3s;
+}
+
+#displayRed {
+    border: 3px solid whitesmoke; 
+    color: black;
+    border-radius: .5em;
+    box-shadow: black 3px 3px 2px;
+    position: relative;
+    top: 50px;
+    transition-delay: .3s;
+    background-color: red;
+}
+
+#button {
+    position: relative;
+    top: 60px;
+    width: 120px;
+    height: 40px;
+    box-shadow: black 3px 3px 2px;
+    border-radius: .5em;
+    background-color: #A39BA8;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+#button:hover {
+    background-color: #23CE6B;
+}
+
+#button:active {
+  background-color: #23CE6B;;
+  transform: translateY(4px);
+}
